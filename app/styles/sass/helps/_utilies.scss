@@ -1,0 +1,32 @@
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+
+.py-60 {
+    padding: 6rem 0;
+}
+
+.pb-60 {
+    padding: 0 0 6rem 0;
+}
+
+.py-40 {
+    padding: 4rem 0;
+}
+
+.pb-20 {
+    padding-bottom: 2rem;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+@include respond(tab-port) {
+    .d-none-port {
+        display: none;
+    }        
+}
